@@ -32,7 +32,6 @@ function addTodo(e) {
         newTodoUI(inputValue);
         addTodoLocalStorage(inputValue);
     }
-
     e.preventDefault();
 }
 
