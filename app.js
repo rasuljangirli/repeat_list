@@ -37,7 +37,7 @@ function addTodo(e) {
 function newTodoUI(newTodo) {
     let div = document.createElement("div")
     div.className = "container_two_section_dinamik"
-
+    
     let p = document.createElement("p")
     p.innerHTML = newTodo;
 
