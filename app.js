@@ -27,7 +27,6 @@ function addTodo(e) {
     if (inputValue == "" || input.value === null) {
         alert("No Text Todo. Plase write input")
     } else {
-
         newTodoUI(inputValue);
         addTodoLocalStorage(inputValue);
     }
