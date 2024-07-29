@@ -23,7 +23,7 @@ function pageLoaded() {
 //? add Todo function
 function addTodo(e) {
     let inputValue = input.value.trim();
-
+    
     if (inputValue == "" || input.value === null) {
         alert("No Text Todo. Plase write input")
     } else {
