@@ -7,7 +7,6 @@ let todos = [];
 
 runEvents();
 function runEvents() {
-
     form.addEventListener("submit", addTodo);
     containerTwoSection.addEventListener("click", deleteUITodo);
     document.addEventListener("DOMContentLoaded", pageLoaded);
